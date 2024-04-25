@@ -36,7 +36,7 @@ namespace Senior_Project
             }
 
             string baseUrl = "https://www.googleapis.com/books/v1/volumes?q=";
-            string apiKey = "key=AIzaSyCx1_TQvLS822FJCLEpWy_M5YnPvOVzGGs";
+            string apiKey = "key=YOUR_API_KEY";
 
             using (HttpClient client = new HttpClient())
             {
